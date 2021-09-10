@@ -7473,6 +7473,8 @@ h1, h2, h3, h4, h5,
   width: 100%;
   height: 100%;
   position: inherit;
+  background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7) ), url('https://res.cloudinary.com/kennedy1/image/upload/v1601549126/DSC_0003-min_gmcvr6.jpg');
+  /* background: linear-gradient(180deg,rgba(4,28,38,.5) 0,#00151d 88.63%); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center; }
@@ -7485,10 +7487,12 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .08;
+    /* background: linear-gradient(180deg,rgba(4,28,38,.5) 0,#00151d 88.63%); */
+    background-image: url('https://res.cloudinary.com/kennedy1/image/upload/v1601549126/DSC_0003-min_gmcvr6.jpg');
     /* background: #000000;
     background: #6b75ff; */
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(249,252,255,1) 73%);
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(249,252,255,1) 73%); */
     /* background: -moz-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
     background: -webkit-gradient(left bottom, right top, color-stop(0%, #6b75ff), color-stop(0%, #6b75ff), color-stop(100%, #59b7ff));
     background: -webkit-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
@@ -7505,13 +7509,16 @@ h1, h2, h3, h4, h5,
   color: #ffff;
   line-height: 1.2;
   font-weight: 400;
-  background: #6b75ff;
-  background: -moz-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+  font-size: 3em;
+  background: linear-gradient(to right, rgba(255, 255, 255), rgb(211, 211, 211));
+
+  /* -webkit-text-fill-color: transparent; */
+  /* background: -moz-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
   background: -webkit-gradient(left bottom, right top, color-stop(0%, #6b75ff), color-stop(0%, #6b75ff), color-stop(100%, #59b7ff));
   background: -webkit-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
   background: -o-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
   background: -ms-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
-  background: linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+  background: linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%); */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b75ff', endColorstr='#59b7ff', GradientType=1 );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
@@ -7526,7 +7533,7 @@ h1, h2, h3, h4, h5,
   font-size: 20px;
   line-height: 1.5;
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.8); }
+  color: rgba(255, 255, 255); }
   .slider-text p strong {
     font-weight: 700; }
     .slider-text p strong a {
@@ -7560,13 +7567,13 @@ h1, h2, h3, h4, h5,
     font-size: 38px;
     font-weight: 200;
     border-left: 1px solid rgba(0, 0, 0, 0.05);
-    color: #6b76ff; }
+    color: #ffdb6f; }
     #timer .time:first-child {
       border-left: transparent; }
     #timer .time span {
       font-size: 16px;
       display: block;
-      color: #000000; }
+      color: #ffffff; }
 
 .owl-carousel {
   position: relative; }
@@ -8037,7 +8044,7 @@ h1, h2, h3, h4, h5,
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
   .services .media-body h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500; }
 
 .list-services {
@@ -8166,14 +8173,14 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #222831;
-  padding: 7em 0; }
+  padding: 2em 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 20px;
     font-weight: 400; }
   .ftco-footer .ftco-footer-widget ul li a {
@@ -8602,7 +8609,7 @@ textarea.form-control {
 .block-6 {
   margin-bottom: 40px; }
   .block-6 .media-body p {
-    font-size: 16px; }
+    font-size: 17px; }
 
 .block-27 ul {
   padding: 0;
