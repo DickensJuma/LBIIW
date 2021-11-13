@@ -1770,6 +1770,7 @@ pre code {
   padding: 0.75rem;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
+  color: #000;
 }
 .table thead th {
   vertical-align: bottom;
@@ -1859,7 +1860,7 @@ pre code {
 .table-info,
 .table-info > th,
 .table-info > td {
-  background-color: #bee5eb;
+  background-color: #fdfdfd;
 }
 
 .table-hover .table-info:hover {
@@ -1947,7 +1948,7 @@ pre code {
 }
 
 .table .thead-light th {
-  color: #495057;
+  color: #ffffff;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
@@ -5831,7 +5832,11 @@ button.close {
     max-width: 800px;
   }
 }
-
+@media (min-width: 992px) {
+  .modal-xl {
+    max-width: 1200px;
+  }
+}
 .tooltip {
   position: absolute;
   z-index: 1070;
@@ -9637,6 +9642,25 @@ h5,
   -ms-border-radius: 2px;
   border-radius: 2px;
 }
+.venue{
+  color: #000000;
+  font-weight: 700;
+  
+}
+.reg {
+  color: #fff;
+  border: 1px solid #eb4754;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-top: 4px;
+  background: #eb4754;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
 .ftco-navbar-light .navbar-nav > .nav-item.cta > a span {
   display: inline-block;
   color: #fff;
@@ -9888,9 +9912,12 @@ h5,
   border-left: transparent;
 }
 #timer .time span {
-  font-size: 16px;
+  font-size: 18px;
   display: block;
   color: #ffffff;
+}
+.img-height{
+  height: 363px !important;
 }
 
 .owl-carousel {
@@ -10235,7 +10262,7 @@ span.img-text:hover {
   width: calc(100% - 90px);
 }
 .speaker-wrap .text h2 {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 600;
 }
 .speaker-wrap .text h2 a {
@@ -11530,6 +11557,9 @@ textarea.form-control {
   .sidebar-wrap .fields .icon {
     right: 10px;
   }
+  .img-height{
+    height: 109px !important;
+  }
 }
 .sidebar-wrap .fields .select-wrap {
   position: relative;
@@ -11845,4 +11875,17 @@ textarea.form-control {
   background-color: #e4606d;
   color: white;
   transform: rotateY(180deg);
+}
+
+.partner-img{
+  height: 120px;
+  width: 120px;
+  align-self: center;
+  margin: 5px auto;
+}
+@media (max-width: 767.98px){
+  .partner-img{
+    height: 50px;
+    width: 50px;
+  }
 }

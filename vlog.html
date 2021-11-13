@@ -112,20 +112,24 @@
           <li class="nav-item">
             <a href="./gallery.html" class="nav-link">Gallery</a>
           </li>
-          <!-- <li class="nav-item">
-            <a
-              href="#"
+          
+          </li> 
+          <li class=" dropdown nav-item cta mr-md-2">
+         
+            <button class="btn reg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Register
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            
+              <a  href="#"
               data-toggle="modal"
-              data-target="#myModal"
-              class="nav-link"
-              >Contact</a
-            >
-          </li> -->
-          <li class="nav-item cta mr-md-2">
-            <a  href="#"
-            data-toggle="modal"
-            data-target="#myModal" class="nav-link">Register</a>
-          </li>
+              data-target="#myModal" class="nav-link dropdown-item text-dark">Conference Registration</a>
+              <a class="dropdown-item nav-link text-dark" target="_blank" href="https://docs.google.com/forms/d/1I4zvy3bXq9NDbW0HYhIr1yFPNSoAAK0f6xzcVVzkvds/viewform?edit_requested=true">Exhibition booking</a>
+              <a class="dropdown-item nav-link text-dark" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeyJ-eUt-lfpfAj8NY1eF7lBDKzCJN6Hjh6xiAu6JjqU6Pt1A/viewform">Tech & Innovation <div>Hybrid BarCamp Kenya 2021</div> </a>
+              
+            </div>
+          
+        </li>
         </ul>
       </div>
     </div>
@@ -269,28 +273,12 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry">
-              <iframe
-                width="350"
-                height="270"
-                src="https://www.youtube.com/embed/LqOgyp7eq9Y?list=PLbOQ8ttaBy3BavZg7DPe7SjceQTtbU4Zw"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+              <iframe width="350" height="270" src="https://www.youtube.com/embed/zDzLhBx9bOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry">
-              <iframe
-                width="350"
-                height="270"
-                src="https://www.youtube.com/embed/hh8ZJsRSAYw?list=PLbOQ8ttaBy3BavZg7DPe7SjceQTtbU4Zw"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+              <iframe width="350" height="270" src="https://www.youtube.com/embed/hgZ8Xo4xw40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -352,294 +340,355 @@
     </section> -->
 
   
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog modal-lg">
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header d-flex align-content-between">
-            <nav
-              class="
-                navbar navbar-expand-lg navbar-dark
-                ftco_navbar ftco-navbar-light
-              "
-              style="border-bottom: 5px solid #eb4754"
-              id="ftco-navbar"
+   
+   <!-- Modal -->
+   <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header d-flex align-content-between" >
+          <nav
+          class="
+            navbar navbar-expand-lg navbar-dark
+            ftco_navbar
+          
+            ftco-navbar-light
+          "
+          style="border-bottom:5px solid #eb4754; width: 100%;"
+          id="ftco-navbar"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="index.html"
+              ><span
+                ><img src="/images/logo.png" style="width: 70px" srcset="" /></span
+            ></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#ftco-nav"
+              aria-controls="ftco-nav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-              <div class="container">
-                <a class="navbar-brand" href="index.html"
-                  ><span
-                    ><img
-                      src="/images/logo.png"
-                      style="width: 70px"
-                      srcset="" /></span
-                ></a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#ftco-nav"
-                  aria-controls="ftco-nav"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="oi oi-menu text-white"></span> Menu
-                </button>
-
-                <div class="collapse navbar-collapse" id="ftco-nav">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a href="/" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#speakers" class="nav-link">Speakers</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#schedule" class="nav-link">Schedule</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="awards.html" class="nav-link">Awards</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-            <!-- <button type="button" class="close" data-dismiss="modal">
+              <span class="oi oi-menu text-white"></span> Menu
+            </button>
+    
+            <div class="collapse navbar-collapse" id="ftco-nav">
+              <ul class="navbar-nav ml-auto">
+              
+                <li class="nav-item">
+                  <a href="/" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#speakers" class="nav-link">Speakers</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#schedule" class="nav-link">Schedule</a>
+                </li>
+                <li class="nav-item">
+                  <a href="awards.html" class="nav-link">Awards</a>
+                </li>
+                
+    
+              </ul>
+            </div>
+          </div>
+        </nav>
+          <!-- <button type="button" class="close" data-dismiss="modal">
             &times;
           </button> -->
-          </div>
-          <div class="modal-body">
-            <form
-              method="POST"
-              id="sheetdb-form"
-              class="jumbotron"
-              action="https://sheetdb.io/api/v1/vym9ylq3zbw0x"
-            >
-              <div class="form-row">
-                <h2 style="font-size: 30px; margin: 0 auto">
-                  <p style="font-weight: 700">
-                    <span style="color: brown">Participant information</span>
-                  </p>
-                  <h5>
-                    Please fill out the information below, then click Next to
-                    continue. All fields marked with an asterisk<span
-                      style="color: rgb(255, 0, 0)"
-                    >
-                      (*)</span
-                    >
-                    are required.
-                  </h5>
-                </h2>
+        </div>
+        <div class="modal-body">
+          <form method="POST" id="sheetdb-form" class="jumbotron" action="https://sheetdb.io/api/v1/vym9ylq3zbw0x">
+            <div class="form-row">
+              <h2 style="font-size: 30px; margin: 0 auto;">
+                <p  style="font-weight: 700;">
+                    <span style="color:brown">Participant information</span>
+                </p>
+              <h5>Please fill out the information below, then click Next to continue.
+
+                All fields marked with an asterisk<span style="color: rgb(255,0,0);"> (*)</span> are required.</h5>
+              </h2>
                 <div class="col-12 mt-3" id="message">
                   <div class="form-row mt-3">
                     <div class="col-12 col-sm-6 col-md-12 col-lg-6">
-                      <div class="form-group">
-                        <label for="from-firstname">First Name</label>
-                        <span class="required-input">*</span>
+                    
+                    <div class="form-group">
+                      <label for="from-firstname">First Name</label>
+                      <span class="required-input">*</span>
                         <div class="input-group">
-                          <input
-                            class="form-control"
-                            type="text"
-                            id="from-firstname"
-                            name="data[firstname]"
-                            required
-                            placeholder="First Name"
-                          />
+                            
+                                        <input class="form-control" type="text"
+                                id="from-firstname" name="data[firstname]" required placeholder="First Name">
                         </div>
-                      </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-12 col-lg-6">
-                      <div class="form-group">
-                        <label for="from-lastname">Last Name</label>
-                        <span class="required-input">*</span>
+                    
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                    
+                    <div class="form-group">
+                      <label for="from-lastname">Last Name</label>
+                      <span class="required-input">*</span>
                         <div class="input-group">
-                          <input
-                            class="form-control"
-                            type="text"
-                            id="from-lastname"
-                            name="data[lastname]"
-                            required
-                            placeholder="Last Name"
-                          />
+                          
+                            <input class="form-control" type="text"
+                                id="from-lastname" name="data[lastname]" required placeholder="Last Name">
                         </div>
-                      </div>
                     </div>
+                    
                   </div>
-                  <div class="form-row">
-                    <div class="col-12 col-sm-6 col-md-12 col-lg-6">
-                      <div class="form-group">
-                        <label for="from-email">Email</label
-                        ><span class="required-input">*</span>
-                        <div class="input-group">
-                          <input
-                            class="form-control"
-                            type="email"
-                            id="from-email"
-                            name="data[email]"
-                            required
-                            placeholder="Email Address"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-12 col-lg-6">
-                      <div class="form-group">
-                        <label for="from-county">County</label
-                        ><span class="required-input">*</span>
-                        <div class="input-group">
-                          <input
-                            class="form-control"
-                            type="text"
-                            id="from-county"
-                            name="data[county]"
-                            required
-                            placeholder="County"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="form-row">
-                    <div class="col-12 col-sm-6 col-md-12 col-lg-6">
-                      <div class="form-group">
-                        <label for="from-phone">Phone</label
-                        ><span class="required-input">*</span>
-                        <div class="input-group">
-                          <input
-                            class="form-control"
-                            type="tel"
-                            pattern="[0-9]{10}"
-                            id="from-phone"
-                            name="data[phone]"
-                            required
-                            placeholder="Primary Phone"
-                          />
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-md-12 col-lg-6">
-                      <div class="form-group">
-                        <label for="from-attending"
-                          >How will you be attending this event? *</label
-                        >
-                        <div class="input-group">
-                          <select
-                            class="form-control"
-                            id="from-attending"
-                            name="data[attending]"
-                            required
-                          >
-                            <optgroup label="Choose one">
-                              <option value="Physical">Physical</option>
-                              <option value="Virtual">Virtual</option>
-                              <option value="Both">Both</option>
-                            </optgroup>
-                          </select>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="from-comments"
-                      >What key takeaways do you expect from this event?</label
-                    >
-                    <div class="input-group">
-                      <input
-                        class="form-control"
-                        type="text"
-                        id="from-takeaways"
-                        name="data[takeaways]"
-                        required
-                        placeholder=""
-                      />
-                    </div>
-                  </div>
-
-                  <div class="form-row">
-                    <div class="col-12 col-sm-6 col-md-12 col-lg-6">
-                      <label for="from-comments"
-                        >How did you come to learn about the Lake Basin
-                        Innovation & Investments Week 2021 Conference?
-                        *(required)
-                      </label>
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="data[socialmedia]"
-                          id="socialmedia"
-                        />
-                        <label class="form-check-label" for="socialmedia">
-                          Social Media
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="data[website]"
-                          id="website"
-                        />
-                        <label class="form-check-label" for="website">
-                          Website
-                        </label>
-                      </div>
-
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="data[friendorcolleague]"
-                          id="friendorcolleague"
-                        />
-                        <label class="form-check-label" for="friendorcolleague">
-                          Referral from a friend or colleague
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group mt-3">
-                    <div class="form-row">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="data[updated]"
-                          id="updated"
-                        />
-                        <label class="form-check-label" for="updated">
-                          Keep me updated on the latest news, events, and
-                          exclusive offers from this event organizer.
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="form-row">
-                      <div class="col">
-                        <button class="btn btn-danger btn-block" type="reset">
-                          <i class="fa fa-undo"></i> Reset
-                        </button>
-                      </div>
-                      <div class="col">
-                        <button class="btn btn-danger btn-block" type="submit">
-                          Submit <i class="fa fa-chevron-circle-right"></i>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-
-                  <hr class="d-flex d-md-none" />
                 </div>
-              </div>
-            </form>
-            <div id="loader"></div>
-          </div>
-          <div class="modal-footer p-0">
-            <!-- <button type="button" class="btn cta" data-dismiss="modal">
+                <div class="form-row">
+                  <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                    <div class="form-group"><label for="from-email">Email</label><span class="required-input">*</span>
+                        <div class="input-group">
+                          <input class="form-control" type="email"
+                                id="from-email" name="data[email]" required placeholder="Email Address">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                    <div class="form-group"><label for="from-county">County</label><span class="required-input">*</span>
+                        <div class="input-group">
+                          <input class="form-control"  type="text"
+                                id="from-county" name="data[county]" required placeholder="County">
+                        </div>
+                    </div>
+                  </div>
+                  </div>
+                  
+
+                    <div class="form-row">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <div class="form-group"><label for="from-phone">Phone</label><span
+                                    class="required-input">*</span>
+                                <div class="input-group">
+                                  <input class="form-control"
+                                        type="tel"  id="from-phone" name="data[phone]"required
+                                        placeholder="Primary Phone">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <div class="form-group">
+                              <label for="from-attending">How will you be attending this event?
+                              *</label>
+                                <div class="input-group">
+                                  <select class="form-control"
+                                        id="from-attending" name="data[attending]"  onchange="showfield(this.options[this.selectedIndex].value)" required>
+                                        <optgroup label="Choose one">
+                                            <option value="Physically" >Physically</option>
+                                            <option value="Virtually">Virtually</option>
+                                            <option value="Both">Both</option>
+                                          
+                                        </optgroup>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                    
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                          <div class="form-group">
+                            <label for="from-event"
+                              >Which of the LBIIW activities are you most
+                              interested in participating in ? *</label
+                            >
+                            <div class="input-group">
+                              <select
+                                
+                                class=" form-control selectpicker" 
+                                id="from-event"
+                                name="data[event]"
+                                onchange="showfield(this.options[this.selectedIndex].value)"
+                                required 
+                              >
+                                <optgroup label="Choose one">
+                                  <option>Please Select</option>
+                                  <option value="Exhibition">Exhibition</option>
+                                  <option value="Hackathon">Hackathon</option>
+                                  <option value="Speed dating">
+                                    Speed dating
+                                  </option>
+                                  <option value="Plenary sessions">
+                                    Plenary sessions
+                                  </option>
+                                  <option value="Site visits">Site visits</option>
+                                  <option value="Award ceremony">
+                                    Award ceremony
+                                  </option>
+                                </optgroup>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                       
+                    </div>
+                   
+                  
+                  <div id="div7" style="display:none;">
+                    <div class="form-row">
+                    <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                    <label for="from-occupation"> Occupation:</label>
+                     <input type="text" class="form-control" name="data[occupation]" />
+</div>
+                     <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                      <div class="form-group">
+                        <label for="from-industry">Are you coming from the Industry/Academia
+                        </label>
+                          <div class="input-group">
+                            <select class="form-control"
+                                  id="from-industry" name="data[industry]" required>
+                                  <optgroup label="Choose one">
+                                      <option value="Industry" >Industry</option>
+                                      <option value="Academia">Academia</option>
+                                      
+                                    
+                                  </optgroup>
+                              </select>
+                          </div>
+                      </div>
+                    </div>
+</div>
+<div class="form-row">
+<div class="col-12 col-sm-6 col-md-12 col-lg-6">
+  <div class="form-group">
+    <label for="from-sector"
+      >Which sector does your organization identify with?</label
+    >
+    <div class="input-group">
+      <select
+        class="form-control"
+        id="from-sector"
+        name="data[sector]"
+        required
+      >
+        <optgroup label="Choose one">
+          <option value="Exhibition">Health </option>
+          <option value="Real Estate">Real Estate</option>
+          <option value="Tourism & Hospitality">
+            Tourism & Hospitality
+          </option>
+          <option value="Education">
+            Education
+          </option>
+          <option value="Trade & industrialization">Trade & industrialization</option>
+          <option value="ICT">
+            ICT
+          </option>
+          <option value="Water, Environment & Climate change">
+            Water, Environment & Climate change
+          </option>
+          
+        </optgroup>
+      </select>
+    </div>
+  </div>
+</div>
+<div class="col-12 col-sm-6 col-md-12 col-lg-6">
+  <div class="form-group">
+    <label for="from-pillar">Which  of the 3 pillars are you familiar with? <em>Please choose from the dropdown</em>
+    </label>
+      <div class="input-group">
+        <select class="form-control"
+              id="from-pillar" name="data[pillar]" required>
+              <optgroup label="Choose one">
+                  <option value="Technology & Innovation" >Technology & Innovation</option>
+                  <option value="Policy">Policy</option>
+                  <option value="Business">Business</option>
+                  
+                
+              </optgroup>
+          </select>
+      </div>
+  </div>
+</div> 
+</div>
+                   
+                
+                 </div>
+
+                       
+
+                
+                 
+                    <div class="form-group">
+                      <label for="from-comments">What key takeaways do you expect from this event?</label>
+                      <div class="input-group">
+                        <input class="form-control"  type="text"
+                            id="from-takeaways" name="data[takeaways]"required placeholder="">
+                    </div>
+                        </div>
+
+                        <div class="form-row">
+                          <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <label for="from-comments">How did you come to learn about the Lake Basin Innovation & Investments Week 2021 Conference?
+                              *(required)
+                              
+                              </label>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="data[socialmedia]" id="socialmedia" value="Social Media">
+                          <label class="form-check-label" for="socialmedia">
+                            Social Media
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="data[website]" id="website" value="website">
+                          <label class="form-check-label" for="website">
+                            Website
+                          </label>
+                        </div>
+                        
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="data[friendorcolleague]" id="friendorcolleague" value="Friend or Colleague">
+                          <label class="form-check-label" for="friendorcolleague">
+                            Referral from a friend or colleague
+                          </label>
+                        </div>
+              
+                      </div>
+                        
+                    </div>
+                    <div class="form-group mt-3 p-5"  style="border: 1px solid #eb4754; background-color: #f8f9fa; border-radius: 8%;">
+                      <div class="form-row">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" name="data[subscribe]" id="subscribe" value="Yes">
+                          <label class="form-check-label" for="subscribe">
+                            Keep me updated on the latest news, events, and exclusive offers from this event organizer.
+
+
+                          </label>
+                        </div>
+              
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" name="data[coc]" id="coc" value="consented" required>
+                          <label class="form-check-label" for="coc">
+                            By Registering on our Website, You agree to the Code of Conduct spelled out  &#128073; <a target="_blank" href="/coc.html">HERE</a>
+
+
+                          </label>
+                        </div>
+                      </div>
+                  </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col"><button class="btn btn-danger btn-block" type="reset"><i
+                                        class="fa fa-undo"></i> Reset</button></div>
+                            <div class="col"><button class="btn btn-danger btn-block" type="submit"
+                                    >Submit <i class="fa fa-chevron-circle-right"></i></button></div>
+                        </div>
+                    </div>
+
+                    <hr class="d-flex d-md-none">
+                </div>
+            </div>
+        </form>
+        <div id="loader"></div>
+        </div>
+        <div class="modal-footer p-0">
+          <!-- <button type="button" class="btn cta" data-dismiss="modal">
             Close
           </button> -->
           
@@ -659,7 +708,7 @@
                           <li>
                             <a href="#"
                               ><span class="icon icon-phone"></span
-                              ><span class="text"> +254 728 791 451</span></a
+                              ><span class="text"> +254 753 951 347</span></a
                             >
                           </li>
                           <li>
@@ -678,7 +727,7 @@
                   <div class="ftco-footer-widget ml-md-5">
                     <h2 class="ftco-heading-2">Previous Events</h2>
                     <ul class="list-unstyled">
-                      <li><a href="/2020" class="d-block">Last year Website</a></li>
+                      <li><a href="/2020" class="d-block">2020 Website</a></li>
                       <li><a href="/2019" class="d-block">2019 Website</a></li>
                     
                     </ul>
@@ -688,16 +737,20 @@
                   <div class="ftco-footer-widget">
                     <h2 class="ftco-heading-2">Downloads</h2>
                     <ul class="list-unstyled">
-                     
-                  
+                    
+                      <li>
+                        <a href="./images/LBIIW 2020 Virtual Conference (1).pdf" class="d-block"
+                          >2021 Concept Note </a
+                        >
+                      </li>
                       <li>
                         <a href="./images/LBIIW 2020 - Report.pdf" class="d-block"
-                          >Reports 2020</a
+                          >2020 Report </a
                         >
                       </li>
                       <li>
                         <a href="./images/report-2019.pdf" class="d-block"
-                          >Reports 2019</a
+                          > 2019 Report</a
                         >
                       </li>
                     
@@ -714,26 +767,26 @@
                     <a href="https://www.youtube.com/channel/UCsRZAJsH2PHwCFS-xyjEAuQ" target="_blank"><i class="fab fa-youtube"></i></a>
                     <a href="https://www.instagram.com/lbiiw/" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="https://twitter.com/lbiiwk?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
-                     
-                 </div>
+                    
+                </div>
                   <p>
-                   
+                  
                     Copyright &copy;
                     <script>
                       document.write(new Date().getFullYear());
                     </script>
                     All rights reserved | LBIIW
-                   
+                  
                   </p>
                 </div>
               </div>
             </div>
           </footer>
-          </div>
         </div>
       </div>
     </div>
-   
+  </div>
+ 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row">
@@ -750,7 +803,7 @@
                     <li>
                       <a href="#"
                         ><span class="icon icon-phone"></span
-                        ><span class="text"> +254 728 791 451</span></a
+                        ><span class="text"> +254 753 951 347</span></a
                       >
                     </li>
                     <li>
@@ -769,7 +822,7 @@
             <div class="ftco-footer-widget ml-md-5">
               <h2 class="ftco-heading-2">Previous Events</h2>
               <ul class="list-unstyled">
-                <li><a href="/2020" class="d-block">Last year Website</a></li>
+                <li><a href="/2020" class="d-block">2020 Website</a></li>
                 <li><a href="/2019" class="d-block">2019 Website</a></li>
               
               </ul>
@@ -780,15 +833,19 @@
               <h2 class="ftco-heading-2">Downloads</h2>
               <ul class="list-unstyled">
                
-            
+                <li>
+                  <a href="./images/LBIIW 2020 Virtual Conference (1).pdf" class="d-block"
+                    >2021 Concept Note </a
+                  >
+                </li>
                 <li>
                   <a href="./images/LBIIW 2020 - Report.pdf" class="d-block"
-                    >Reports 2020</a
+                    >2020 Report </a
                   >
                 </li>
                 <li>
                   <a href="./images/report-2019.pdf" class="d-block"
-                    >Reports 2019</a
+                    > 2019 Report</a
                   >
                 </li>
               
@@ -906,5 +963,18 @@
     <script src="js/jquery.timepicker.min.js"></script>
     <script src="js/scrollax.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      function showfield(name) {
+    console.log('!');
+    if (name == 'Hackathon') {
+        console.log('passed');
+        document.getElementById('div7').style.display = 'inline';
+    } else {
+        document.getElementById('div7').style.display = 'none';
+    }
+    
+}
+
+    </script>
   </body>
 </html>
